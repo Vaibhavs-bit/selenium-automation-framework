@@ -1,0 +1,37 @@
+CONTRIBUTING.md
+CHANGELOG.md
+LICENSE
+.gitignore
+FAQ.md
+ARCHITECTURE.md
+BEST_PRACTICES.md
+TEST_EXECUTION_GUIDE.md
+README.md
+pom.xml
+
+# Java Source Files
+src/test/java/com/automation/base/BaseTest.java
+src/test/java/com/automation/pages/LoginPage.java
+src/test/java/com/automation/pages/HomePage.java
+src/test/java/com/automation/tests/LoginTest.java
+src/test/java/com/automation/tests/HomeTest.java
+src/test/java/com/automation/utilities/ConfigReader.java
+src/test/java/com/automation/utilities/WaitUtility.java
+src/test/java/com/automation/utilities/ExcelUtility.java
+src/test/java/com/automation/utilities/ScreenshotUtility.java
+src/test/java/com/automation/utilities/FileUtility.java
+src/test/java/com/automation/utilities/JsonUtility.java
+src/test/java/com/automation/listeners/TestListener.java
+src/test/java/com/automation/reports/ExtentManager.java
+src/test/java/com/automation/dataProviders/TestDataProvider.java
+
+# Configuration Files
+src/test/resources/config.properties
+src/test/resources/log4j2.xml
+src/test/resources/testng.xml
+src/test/resources/testng-parallel.xml
+
+# Directories to be created
+logs/
+test-results/reports/
+test-results/screenshots/
